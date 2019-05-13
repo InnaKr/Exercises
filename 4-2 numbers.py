@@ -1,4 +1,4 @@
-S="ds0df123ds d4fs5d 6s7d sd89sd"
+S="ds0df123ds d4fs5d 6s7d sd89sd"   # not ready
 #S=S.split()
 print(S)
 def Num(S):
