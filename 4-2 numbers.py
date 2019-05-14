@@ -1,11 +1,12 @@
-S="ds0df123ds d4fs5d 6s7d sd89sd"
-#S=S.split()
-print(S)
-def Num(S):
-    N=[]
-    for i in S:
-        if i.isdigit():
-            N=N+i
-            print (N)
-    return (N)
-print(Num(S))
+s="ds0df123ds d4fs5d 6s7d sd89sd"
+
+def num(a):
+    k=''
+    for i in range(len(a)):
+        if a[i].isdigit():
+            k=k+a[i]
+        else:
+            k=k+' '
+    k=k.split()
+    return k
+print(num(s))
