@@ -1,5 +1,6 @@
 N = int(input("Введіть ціле число: "))
 
+
 def K(a):
     P, R = [], []
     for _ in range(a):
@@ -11,10 +12,11 @@ def K(a):
             else:
                 R.append(k)
     P.sort()
-    P=[int(el)for el in P]
+    P = [int(el) for el in P]
     R.sort()
     P.extend(R)
 
     print(P)
+
 
 K(N)
