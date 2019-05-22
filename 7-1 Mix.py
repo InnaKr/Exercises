@@ -11,6 +11,7 @@ def K(a):
             else:
                 R.append(k)
     P.sort()
+    P=[int(el)for el in P]
     R.sort()
     P.extend(R)
 
